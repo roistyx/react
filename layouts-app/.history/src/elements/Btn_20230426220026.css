@@ -1,0 +1,7 @@
+.Btn {
+	display: flex;
+	gap: var(--gap);
+	height: 100%;
+	align-items: center;
+	background-color: blue;
+}

@@ -1,0 +1,24 @@
+.Line {
+	display: flex;
+	gap: var(--gap);
+	height: 100%;
+	align-items: center;
+}
+
+.Line.between {
+	justify-content: space-between;
+}
+
+.Line.rows {
+	flex-direction: column;
+	align-items: stretch;
+}
+
+.AlignStart {
+	align-self: flex-start;
+}
+
+.AlignCenter {
+	align-self: center;
+	background-color: black;
+}
