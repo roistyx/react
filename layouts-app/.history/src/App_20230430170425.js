@@ -11,7 +11,7 @@ export default function App() {
 	return (
 		<div>
 			<Between>
-				<Box bgColor="	#00FFFF" borderRadius="10px" gap="1rem" boxMargin="1rem">
+				<Box bgColor="	#00FFFF" borderRadius="10px" gap="1rem">
 					<span>I'm a box Start</span>
 				</Box>
 				<Box bgColor="	#00FFFF" borderRadius="10px" gap="1rem">

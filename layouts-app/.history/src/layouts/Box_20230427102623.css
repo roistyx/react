@@ -1,0 +1,13 @@
+:root {
+	--background: green;
+	--border: #ddd;
+	--gap: 1rem;
+	--border-radius: 0.25rem;
+}
+
+.Box {
+	background-color: var(--background);
+	border: 1px solid var(--border);
+	padding: var(--gap);
+	border-radius: var(--border-radius);
+}
