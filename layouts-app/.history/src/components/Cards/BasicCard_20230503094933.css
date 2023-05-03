@@ -1,0 +1,16 @@
+:root {
+	--background: #fff;
+	--border: #fff;
+	--gap: 1rem;
+	--margin: 0 0 0 0;
+	--border-radius: 0.25rem;
+}
+
+.BasicCard {
+	width: (var(--cardWidth));
+	background-color: var(--bgColor);
+	border: 1px solid var(--border);
+	padding: var(--gap);
+	margin: var(--boxMargin);
+	border-radius: var(--border-radius);
+}

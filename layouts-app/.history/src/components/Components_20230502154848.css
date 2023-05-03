@@ -1,0 +1,7 @@
+.Components {
+	background-color: var(--bgColor);
+	border: 1px solid var(--border);
+	padding: var(--gap);
+	margin: var(--boxMargin);
+	border-radius: var(--border-radius);
+}

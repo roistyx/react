@@ -1,0 +1,10 @@
+.Typography {
+	font-family: var(--fontFamily);
+	font-size: var(--fontSize);
+	color: var(--fontColor);
+	font-weight: var(--fontWeight);
+	line-height: var(--lineHeight);
+	letter-spacing: var(--letterSpacing);
+	text-align: var(--textAlign);
+	margin-bottom: var(--marginBottom);
+}
