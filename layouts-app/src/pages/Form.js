@@ -2,6 +2,8 @@ import React from "react";
 import { Grid } from "../layouts/Grid";
 import { Box } from "../layouts/Box";
 import { Center } from "../layouts/Line";
+import TextField from "../elements/TextField";
+import FormGroup from "../form/FormGroup";
 
 function Form() {
   return (
@@ -11,8 +13,11 @@ function Form() {
         bgColor="pink"
         gridBorder="1px solid red"
         childBorder="1px solid green">
-        <Box>One</Box>
-        <Box>Two</Box>
+        <TextField direction="horizontal" />
+
+        <Box>
+          <FormGroup />
+        </Box>
         <Box>Three</Box>
         <Box>Four</Box>
         <Box>Five</Box>

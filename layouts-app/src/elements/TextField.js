@@ -1,17 +1,37 @@
-import "../elements/TextField.css";
 import React from "react";
-import { Btn } from "../elements/Btn.js";
+import "../elements/TextField-vertical.css";
+import "../elements/TextField-horizontal.css";
 
-const TextField = () => {
+const TextField = ({ direction }) => {
   return (
-    <div>
-      <h1>Search Field</h1>
-      <form className="text-field">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" />
-        <Btn>Button</Btn>
-      </form>
-    </div>
+    <>
+      {direction === "vertical" ? (
+        <div className="vertical-form">
+          <div className="form-group">
+            <div className="input-label">
+              <label htmlFor="username">Username:</label>
+              <input type="text" id="username" name="username" />
+            </div>
+          </div>
+
+          <div className="form-group">
+            <div className="input-label">
+              <label htmlFor="password">Password:</label>
+              <input type="password" id="password" name="password" />
+            </div>
+          </div>
+        </div>
+      ) : direction === "horizontal" ? (
+        <div className="text-field">
+          <label htmlFor="username">Username:</label>
+          <input type="text" id="username" name="username" />
+          <label htmlFor="username">Email:</label>
+          <input type="text" id="username" name="username" />
+        </div>
+      ) : (
+        <div>Default</div>
+      )}
+    </>
   );
 };
 
